@@ -24,8 +24,7 @@ function Movielist(props) {
         </h1>
         <div className="row">
           {movies ? movies.map(movie => <Movie movie={movie} />) : null}
-        </div>
-        //{" "}
+        </div>{" "}
       </div>
     </div>
   );
